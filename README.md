@@ -24,10 +24,10 @@ $XONTRIBS_AUTOLOAD_DISABLED = {"dotdot", }
 Now going up in directories can be simply done by chaining dots:
 
 ```xsh
-pwd
+$ pwd
 # /some/deep/nested/directory/structure/I/want/to/leave
-.....
-pwd
+$ .....
+$ pwd
 # /some/deep/nested/directory/structure/
 ```
 
